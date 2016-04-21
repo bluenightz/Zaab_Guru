@@ -62,14 +62,17 @@
 		    		<li>
 		    			<strong class="title">ราคา</strong>
 						<div class="control">
-							ตั้งแต่ <span id="min_num"></span> - <span id="max_num"></span> บาท
+							ตั้งแต่ <span id="price_min_num"></span> - <span id="price_max_num"></span> บาท
 							<div class="slider_price" id="slider_price"></div>
 						</div>
 		    		</li>
 		    		<li>
 		    			<strong class="title">ระยะทาง (เมตร)</strong>
-						<div class="control"></div>
-		    			<strong class="title">หรืออยู่บริเวณ</strong>
+						<div class="control">
+							ตั้งแต่ <span id="dist_min_num"></span> - <span id="dist_max_num"></span> กิโลเมตร
+							<div class="slider_price" id="slider_dist"></div>
+						</div>
+		    			<strong class="title mt1">หรืออยู่บริเวณ</strong>
 						<div class="control">
 							<div class="tag-group">
 								<ul class="list">
@@ -114,54 +117,19 @@
 		
 		
 			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">ตามสั่งลุงน้อย</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">ยาโยอิ</strong>
+						<div class='card__badge--recommend'></div>
+						
+						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">4 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -171,35 +139,19 @@
 			</div>
 		
 			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg5.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
+						<div class='card__badge--recommend'></div>
+						
 						<strong class="title">เคเอฟซี</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">0 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -211,52 +163,17 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">สมบูรณ์โภชนา</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg5.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
+						<div class='card__badge--recommend'></div>
+						
 						<strong class="title">ตามสั่งลุงน้อย</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">2 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -268,71 +185,17 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
+						<div class='card__badge--recommend'></div>
+						
+						<strong class="title">เคเอฟซี</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">8 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg5.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">สมบูรณ์โภชนา</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -344,14 +207,17 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
+						<div class='card__badge--recommend'></div>
+						<div class='card__badge--bookmark'></div>
+						<strong class="title">เคเอฟซี</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">0 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -363,14 +229,39 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg2.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">เคเอฟซี</strong>
+						
+						<div class='card__badge--bookmark'></div>
+						<strong class="title">ยาโยอิ</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">5 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg2.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">เคเอฟซี</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">0 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -382,71 +273,17 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
+						
+						
 						<strong class="title">เคเอฟซี</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">3 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">ตามสั่งลุงน้อย</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
-							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
-						</ul>
-				</div>
-				<div class="padding">
-					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
-				</div>
-			</div>
-		
-			<div class="card restaurantbox">
-				<div class="img" style="background:url(images/restaurantimg5.jpg) no-repeat center; background-size: cover;"></div>
-				<div class="detail">
-						<strong class="title">เคเอฟซี</strong>
-						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
-						</div>
-						<ul class="list">
-							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -458,14 +295,83 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg3.png) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">ยาโยอิ</strong>
+						
+						
+						<strong class="title">สมบูรณ์โภชนา</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">7 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ตามสั่งลุงน้อย</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">3 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">7 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg2.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">1 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>
@@ -477,14 +383,171 @@
 			<div class="card restaurantbox">
 				<div class="img" style="background:url(images/restaurantimg5.jpg) no-repeat center; background-size: cover;"></div>
 				<div class="detail">
-						<strong class="title">เคี้ยงเอ็มไพร์ราดหน้า</strong>
+						
+						
+						<strong class="title">ตามสั่งลุงน้อย</strong>
 						<div class="star">
-							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">1 คน</span>
 						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
 						<ul class="list">
 							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
-							<li><span class="icon-spoon-knife"></span> ข้าวมันไก่</li>
-							<li><span class="icon-bubble"></span> ความคิดเห็น (5)</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg2.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">1 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg3.png) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ตามสั่งลุงน้อย</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">5 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ยาโยอิ</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">1 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg1.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ตามสั่งลุงน้อย</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">6 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg4.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">ข้าวมันไก่ตอนประตูน้ำ</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">3 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">สมบูรณ์โภชนา</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">2 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
+							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
+						</ul>
+				</div>
+				<div class="padding">
+					<button class="btn btn-danger btn-enter-restaurant">ดูเมนูอาหาร</button>
+				</div>
+			</div>
+		
+			<div class="card restaurantbox">
+				<div class="img" style="background:url(images/restaurantimg6.jpg) no-repeat center; background-size: cover;"></div>
+				<div class="detail">
+						
+						
+						<strong class="title">เคเอฟซี</strong>
+						<div class="star">
+							<span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span> <span class="voter">0 คน</span>
+						</div>
+						<p class="desc">
+							ร้านอาหารชื่อดัง ขึ้นชื่อเรื่องการใช้วัตถุดิบที่สดใหม่ รังสรรค์เมนูที่แปลกใหม่ในสไตล์ที่หลากหลาย
+						</p>
+						<ul class="list">
+							<li><span class="icon-location"></span> ประตูน้ำ 6 กม.</li>
 							<li><span class="icon-coin-dollar"></span> 40-150 บาท</li>
 						</ul>
 				</div>

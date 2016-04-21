@@ -6789,7 +6789,7 @@ button.close {
 }
 
 .full-height, body, html, .container-fluid,
-.container-fluid > .row, .sidebar {
+.container-fluid > .row, .sidebar, .popupcontainer__content {
   min-height: 100%;
   height: 100%;
 }
@@ -6876,6 +6876,7 @@ body {
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
+  z-index: 1;
 }
 .sidebar .star {
   margin: 0;
@@ -6962,7 +6963,7 @@ body {
   height: 110px;
 }
 
-.defaultlist, .search-option > .list, .tag-group .list, .profilebox > .list, .navlist, .cardcontainer .restaurantbox > .detail > .list {
+.defaultlist, .search-option > .list, .tag-group .list, .profilebox > .list, .navlist, .cardcontainer .restaurantbox > .detail > .list, .foodlist {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -7073,6 +7074,16 @@ body {
   font-size: 18px;
   margin-right: 2.5px;
 }
+.star .voter {
+  color: #7b7b7b;
+}
+
+.basictitle1, .cardcontainer .restaurantbox > .detail > .title, .shop__title {
+  font-family: 'Kanit', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+}
 
 .cardcontainer {
   display: flex;
@@ -7115,9 +7126,6 @@ body {
   position: relative;
 }
 .cardcontainer .restaurantbox > .detail > .title {
-  font-family: 'Kanit', sans-serif;
-  display: inline-block;
-  font-size: 18px;
   color: #2b2b2b;
 }
 .cardcontainer .restaurantbox > .detail > .list {
@@ -7143,6 +7151,150 @@ body {
   height: 100%;
   position: relative;
   overflow-y: scroll;
+}
+
+.container-fluid.popup__open .popupcontainer {
+  /*display: block;*/
+  visibility: visible;
+}
+.container-fluid.popup__open .contentbox {
+  overflow: hidden;
+}
+.container-fluid.popup__open .popupcontainer__content {
+  top: 0px;
+  opacity: 1;
+}
+
+.popupcontainer {
+  height: 100%;
+  width: 100%;
+  padding: 0 32px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  visibility: hidden;
+  /*display:none;*/
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: bottom 0.4s;
+  -o-transition: bottom 0.4s;
+  transition: bottom 0.4s;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.popupcontainer__content {
+  height: auto;
+  -webkit-box-shadow: 0px 0 8px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0 8px 2px rgba(0, 0, 0, 0.25);
+  opacity: 0;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*font-size: 33px;*/
+  top: 40px;
+  position: relative;
+  /*height: 1500px;*/
+  -webkit-transition: top 0.4s, opacity 0.4s;
+  -o-transition: top 0.4s, opacity 0.4s;
+  transition: top 0.4s, opacity 0.4s;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.popupcontainer__padding {
+  padding: 64px;
+}
+
+.popupcontainer__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color: #ccc;
+  cursor: pointer;
+  -webkit-transition: color 0.4s;
+  -o-transition: color 0.4s;
+  transition: color 0.4s;
+  z-index: 1;
+}
+.popupcontainer__close:hover {
+  color: #666;
+}
+
+.shop__img img {
+  max-width: 100%;
+}
+
+.shop__type strong {
+  color: #333;
+}
+
+.shop__head {
+  font-family: Kanit, Tahoma;
+  background-color: #d1001f;
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 5px 16px;
+  display: block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.foodlist {
+  padding: 0 16px 0;
+}
+.foodlist > li {
+  float: left;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.foodlist__title {
+  font-family: Kanit , Tahoma;
+  font-weight: 800;
+  font-size: 15.48px;
+  color: #333;
+  display: block;
+}
+
+.foodlist__title,
+.foodlist__price {
+  /*float:left;*/
+  clear: left;
+}
+
+.foodlist__img {
+  height: 100px;
+  background-size: cover;
+}
+.foodlist__img img {
+  max-width: 100%;
+}
+
+.foodlist__number {
+  font-size: 18px;
+  /*float: right;*/
+  width: 80px;
+}
+.foodlist__number input {
+  width: 100%;
+  outline: 0px;
+}
+
+.shop {
+  color: #7b7b7b;
+}
+.shop .star .icon-star-full, .shop .star .icon-star-empty,
+.shop .star .icon-star-empty {
+  font-size: 12px;
 }
 
 /* Large devices (large desktops, 1200px and up) */

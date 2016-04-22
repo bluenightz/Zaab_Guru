@@ -4,6 +4,54 @@
 		{
 			"icon": {
 				"paths": [
+					"M726 768c46 0 84 40 84 86s-38 84-84 84-86-38-86-84 40-86 86-86zM42 86h140l40 84h632c24 0 42 20 42 44 0 8-2 14-6 20l-152 276c-14 26-42 44-74 44h-318l-38 70-2 6c0 6 4 10 10 10h494v86h-512c-46 0-84-40-84-86 0-14 4-28 10-40l58-106-154-324h-86v-84zM298 768c46 0 86 40 86 86s-40 84-86 84-84-38-84-84 38-86 84-86z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"shopping_cart"
+				],
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 1,
+				"id": 1,
+				"prevSize": 24,
+				"code": 59689,
+				"name": "shopping_cart"
+			},
+			"setIdx": 0,
+			"setId": 1,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M306 630c0 6 4 10 10 10h494v86h-512c-46 0-84-40-84-86 0-14 4-28 10-40l58-106-154-324h-86v-84h140c27.003 56.33 53.665 113.001 80 170 34.063 71.271 67.603 143.063 102 214h300c54.786-99.881 110.533-198.8 164-300l74 42-164 298c-14 26-42 44-74 44h-318l-38 70zM726 768c46 0 84 40 84 86s-38 84-84 84-86-38-86-84 40-86 86-86zM298 768c46 0 86 40 86 86s-40 84-86 84-84-38-84-84 38-86 84-86zM470 384v-128h-128v-86h128v-128h84v128h128v86h-128v128h-84z"
+				],
+				"attrs": [],
+				"isMulticolor": false,
+				"tags": [
+					"add_shopping_cart"
+				],
+				"grid": 24
+			},
+			"attrs": [],
+			"properties": {
+				"order": 2,
+				"id": 0,
+				"prevSize": 24,
+				"code": 59690,
+				"name": "add_shopping_cart"
+			},
+			"setIdx": 0,
+			"setId": 1,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
 					"M1024 608l-192-192v-288h-128v160l-192-192-512 512v32h128v320h320v-192h128v192h320v-320h128z"
 				],
 				"attrs": [],
@@ -23,7 +71,7 @@
 				"id": 3,
 				"code": 59654
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 2
 		},
@@ -50,7 +98,7 @@
 				"id": 6,
 				"code": 59655
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 5
 		},
@@ -78,7 +126,7 @@
 				"id": 16,
 				"code": 59656
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 15
 		},
@@ -105,7 +153,7 @@
 				"id": 19,
 				"code": 59657
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 18
 		},
@@ -133,7 +181,7 @@
 				"id": 60,
 				"code": 59648
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 59
 		},
@@ -162,7 +210,7 @@
 				"id": 67,
 				"code": 59658
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 66
 		},
@@ -191,7 +239,7 @@
 				"id": 70,
 				"code": 59659
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 69
 		},
@@ -218,7 +266,7 @@
 				"id": 72,
 				"code": 59649
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 71
 		},
@@ -245,7 +293,7 @@
 				"id": 80,
 				"code": 59650
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 79
 		},
@@ -274,7 +322,7 @@
 				"id": 84,
 				"code": 59660
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 83
 		},
@@ -301,7 +349,7 @@
 				"id": 85,
 				"code": 59661
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 84
 		},
@@ -329,7 +377,7 @@
 				"id": 86,
 				"code": 59662
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 85
 		},
@@ -357,7 +405,7 @@
 				"id": 108,
 				"code": 59651
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 107
 		},
@@ -386,7 +434,7 @@
 				"id": 114,
 				"code": 59663
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 113
 		},
@@ -415,7 +463,7 @@
 				"id": 135,
 				"code": 59664
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 134
 		},
@@ -443,7 +491,7 @@
 				"id": 136,
 				"code": 59665
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 135
 		},
@@ -471,7 +519,7 @@
 				"id": 137,
 				"code": 59666
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 136
 		},
@@ -499,7 +547,7 @@
 				"id": 142,
 				"code": 59667
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 141
 		},
@@ -530,7 +578,7 @@
 				"id": 149,
 				"code": 59668
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 148
 		},
@@ -557,7 +605,7 @@
 				"id": 164,
 				"code": 59652
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 163
 		},
@@ -588,7 +636,7 @@
 				"id": 173,
 				"code": 59669
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 172
 		},
@@ -617,7 +665,7 @@
 				"id": 190,
 				"code": 59670
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 189
 		},
@@ -643,7 +691,7 @@
 				"id": 211,
 				"code": 59671
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 210
 		},
@@ -672,7 +720,7 @@
 				"id": 216,
 				"code": 59672
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 215
 		},
@@ -699,7 +747,7 @@
 				"id": 217,
 				"code": 59673
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 216
 		},
@@ -728,7 +776,7 @@
 				"id": 218,
 				"code": 59653
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 217
 		},
@@ -755,7 +803,7 @@
 				"id": 267,
 				"code": 59674
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 266
 		},
@@ -783,7 +831,7 @@
 				"id": 268,
 				"code": 59675
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 267
 		},
@@ -811,7 +859,7 @@
 				"id": 269,
 				"code": 59676
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 268
 		},
@@ -840,7 +888,7 @@
 				"id": 272,
 				"code": 59677
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 271
 		},
@@ -869,7 +917,7 @@
 				"id": 273,
 				"code": 59678
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 272
 		},
@@ -898,7 +946,7 @@
 				"id": 322,
 				"code": 59679
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 321
 		},
@@ -927,7 +975,7 @@
 				"id": 323,
 				"code": 59680
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 322
 		},
@@ -956,7 +1004,7 @@
 				"id": 324,
 				"code": 59681
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 323
 		},
@@ -985,7 +1033,7 @@
 				"id": 325,
 				"code": 59682
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 324
 		},
@@ -1014,7 +1062,7 @@
 				"id": 339,
 				"code": 59683
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 338
 		},
@@ -1042,7 +1090,7 @@
 				"id": 340,
 				"code": 59684
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 339
 		},
@@ -1069,7 +1117,7 @@
 				"id": 397,
 				"code": 59685
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 396
 		},
@@ -1096,7 +1144,7 @@
 				"id": 402,
 				"code": 59686
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 401
 		},
@@ -1124,7 +1172,7 @@
 				"id": 407,
 				"code": 59687
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 406
 		},
@@ -1151,7 +1199,7 @@
 				"id": 414,
 				"code": 59688
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"setId": 0,
 			"iconIdx": 413
 		}
@@ -1183,10 +1231,14 @@
 			"useClassSelector": true,
 			"color": 0,
 			"bgColor": 16777215,
-			"classSelector": ".icon"
+			"classSelector": ".icon",
+			"autoHost": true
 		},
 		"historySize": 100,
 		"showCodes": true,
-		"gridSize": 16
+		"gridSize": 16,
+		"quickUsageToken": {
+			"zaapguru": "OTI3YjM1NjQzNzhhZGI5OGE4ZmM3ZDI2ZTkzOTlmNWYjMSMxNDU5OTY0OTk2IyMj"
+		}
 	}
 }

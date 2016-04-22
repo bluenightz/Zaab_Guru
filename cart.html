@@ -1,10 +1,9 @@
+<!-- #template head -->
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-
-	<!-- include #1 -->
-	    <meta charset="utf-8">
+    <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,17 +19,17 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!-- include #1 -->
 
-	</head>
+</head><!-- #template head -->
 
+<!-- #template container_open -->
   <body class=" page__cart">
 	<div class="container-fluid">
 
-		<div class="row">
+		<div class="row"><!-- #template container_open -->
 
-			<!-- include #2 -->
-			<!-- .sidebar -->
+<!-- #template sidebar -->
+<!-- .sidebar -->
 <div class="col-md-3 sidebar">
 	<div class="profilebox">
 		<span class="logo">ZAAB GURU</span>
@@ -120,13 +119,13 @@
 		</div>
 	</div>
 </div>
-<!-- end .sidebar -->
-			<!-- include #2 -->
+<!-- end .sidebar --><!-- ##template sidebar -->
 
-			
-<!-- start right container -->
-<div class="col-md-9 contentbox">
-	<div class="container-fluid cart__container">
+<!-- #for content -->
+
+
+<div class="col-md-9 contentbox"><!-- contentbox -->
+	<div class="container-fluid cart__container"><!-- content in here -->
 		<div class="col-md-9">
 			<div class="row">
 				<div class="col-md-12">
@@ -134,13 +133,13 @@
 					<p class="basic__p">รายการสั่งอาหารจากร้าน : ข้าวมันไก่ตอนประตูน้ำ</p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row"><!-- step -->
 				<div class="col-md-8 col-md-offset-2 step">
 					<div class="step__circle--active"><span class="icon-pencil"></span><strong class="step__title">แก้ไขสินค้า</strong></div>
 					<div class="step__circle"><span class="icon-location"></span><strong class="step__title">ที่อยู่จัดส่ง</strong></div>
 					<div class="step__circle"><span class="icon-file-text"></span><strong class="step__title">ตรวจสอบ</strong></div>
 				</div>
-			</div>
+			</div><!-- step -->
 			<table class="table">
 				<thead>
 					<tr>
@@ -151,7 +150,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
+					<tr><!-- loop cart item -->
 						<td>ข้าวมันไก่ตอน</td>
 						<td>
 							<div class="foodlist__number">
@@ -160,7 +159,7 @@
 						</td>
 						<td>45 บาท</td>
 						<td>90 บาท</td>
-					</tr>
+					</tr><!-- loop cart item -->
 					<tr>
 						<td>ข้าวหมูอบ</td>
 						<td>
@@ -192,7 +191,7 @@
 			</div>
 
 		</div>
-		<div class="col-md-3 totalbox">
+		<div class="col-md-3 totalbox"><!-- totalbox -->
 			<div class="row">
 				<div class="col-md-12">
 					<h1 class="basic__headsmall--nobg">รวมทั้งหมด</h1>
@@ -231,30 +230,28 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><!-- totalbox -->
 	</div>
-</div>
-<!-- end right container -->
-		</div>
+</div><!-- contentbox -->
+<!-- #for content -->
 
-
+<!-- #template container_close -->
 	</div>
+</div><!-- #template container_close -->
 
-
-
-	<!-- include #3 -->
-	
+<!-- #template global_script -->
 <script src="javascripts/libs/jquery-1.12.3.min.js"></script>
 <script src="javascripts/libs/jquery-ui/jquery-ui.min.js"></script>
 <script src="javascripts/libs/gmap3.min.js"></script>
 
 <script src="javascripts/bootstrap.js"></script>
 <script src="javascripts/search.js"></script>
-<script src="javascripts/page_script.js"></script>
-	<!-- include #3 -->
+<script src="javascripts/page_script.js"></script><!-- #template global_script -->
 
-	
+<!-- #for on page script -->
 
+<!-- #for on page script -->
 
+<!-- #for on page end -->
   </body>
-</html>
+</html><!-- #for on page end -->

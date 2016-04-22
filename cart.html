@@ -123,6 +123,9 @@
 
 <!-- #for content -->
 
+		
+
+
 
 <div class="col-md-9 contentbox"><!-- contentbox -->
 	<div class="container-fluid cart__container"><!-- content in here -->
@@ -140,9 +143,10 @@
 					<div class="step__circle"><span class="icon-file-text"></span><strong class="step__title">ตรวจสอบ</strong></div>
 				</div>
 			</div><!-- step -->
-			<table class="table">
+			<table class="table table--foodlist">
 				<thead>
 					<tr>
+						<th>&nbsp;</th>
 						<th>รายละเอียดสินค้า</th>
 						<th>จำนวน</th>
 						<th>ราคา/หน่วย</th>
@@ -151,6 +155,7 @@
 				</thead>
 				<tbody>
 					<tr><!-- loop cart item -->
+						<td><span class="icon-cross"></span></td>
 						<td>ข้าวมันไก่ตอน</td>
 						<td>
 							<div class="foodlist__number">
@@ -161,6 +166,7 @@
 						<td>90 บาท</td>
 					</tr><!-- loop cart item -->
 					<tr>
+						<td><span class="icon-cross"></span></td>
 						<td>ข้าวหมูอบ</td>
 						<td>
 							<div class="foodlist__number">
@@ -171,6 +177,7 @@
 						<td>135 บาท</td>
 					</tr>
 					<tr>
+						<td><span class="icon-cross"></span></td>
 						<td>ข้าวมัน</td>
 						<td>
 							<div class="foodlist__number">
@@ -184,8 +191,9 @@
 			</table>
 
 			<div class="row mb2">
-				<div class="col-md-1">
+				<div class="col-md-12">
 					<button class="btn btn-default"><span class="icon-loop2"></span> คำนวนราคาใหม่</button>
+					<button class="btn btn-default" id="callshop"><span class="icon-add_shopping_cart"></span> เลือกสินค้าเพิ่มเติม</button>
 				</div>
 			</div>
 
@@ -238,6 +246,18 @@
 			</div>
 		</div><!-- totalbox -->
 	</div>
+
+
+		<div class="popupcontainer col-md-9"><!-- popupcontainer -->
+			<div class="popupcontainer__content container-fluid ">
+				<span class="popupcontainer__close icon-cross"></span>
+				<div class="row popupcontainer__space">
+					
+				</div>
+			</div>
+		</div><!-- popupcontainer -->
+
+
 </div><!-- contentbox -->
 <!-- #for content -->
 
@@ -252,6 +272,7 @@
 
 <script src="javascripts/bootstrap.js"></script>
 <script src="javascripts/search.js"></script>
+<script src="javascripts/popupcontainer.js"></script>
 <script src="javascripts/page_script.js"></script><!-- #template global_script -->
 
 <!-- #for on page script -->

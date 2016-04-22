@@ -1,5 +1,13 @@
 (function($){
 	$(function(){
+
+		$('#locationmap').gmap3({
+		  address: "central pinklao",
+		  zoom: 16,
+		  mapTypeId : google.maps.MapTypeId.ROADMAP
+		});
+
+
 		$("#slider_price").slider({
 	      range: true,
 	      min: 0,

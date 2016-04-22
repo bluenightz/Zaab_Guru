@@ -6692,7 +6692,7 @@ button.close {
     display: none !important;
   }
 }
-.mt1 {
+.mt1, .totalbox .btn-cancel {
   margin-top: 10px !important;
 }
 
@@ -6700,11 +6700,11 @@ button.close {
   margin-bottom: 10px !important;
 }
 
-.mt2, .cardcontainer--hilight .restaurantbox > .detail > .padding {
+.mt2, .cardcontainer--hilight .restaurantbox > .detail > .padding, .totalbox, .totalbox__action {
   margin-top: 20px !important;
 }
 
-.mb2 {
+.mb2, .totalbox {
   margin-bottom: 20px !important;
 }
 
@@ -6728,7 +6728,7 @@ button.close {
   margin-top: 50px !important;
 }
 
-.mb5 {
+.mb5, .step {
   margin-bottom: 50px !important;
 }
 
@@ -6976,6 +6976,12 @@ body {
   vertical-align: top;
   margin-left: 15px;
 }
+.profilebox > .list a {
+  color: #fff;
+}
+.profilebox > .list .icon-pencil {
+  font-size: 18px;
+}
 
 .fz11 {
   font-size: 12px;
@@ -7038,12 +7044,12 @@ body {
   background-color: #fff;
 }
 
-.btn-shopping_cart {
+.btn-shopping_cart, .btn-cancel {
   width: 100%;
   font-size: 16.2px;
   font-family: Kanit, Tahoma;
 }
-.btn-shopping_cart *[class*='icon-'] {
+.btn-shopping_cart *[class*='icon-'], .btn-cancel *[class*='icon-'] {
   font-size: 18px;
   top: 1px;
   position: relative;
@@ -7279,7 +7285,7 @@ body {
   color: #333;
 }
 
-.shop__head {
+.basic__head, .basic__head--nobg, .basic__headsmall--nobg, .shop__head {
   font-family: Kanit, Tahoma;
   background-color: #d1001f;
   color: #fff;
@@ -7294,6 +7300,33 @@ body {
   border-radius: 6px;
 }
 
+.basic__p {
+  padding-bottom: 20px;
+  color: #7b7b7b;
+}
+
+.basic__head--nobg, .basic__headsmall--nobg {
+  background-color: transparent;
+  color: #d1001f;
+  font-size: 36px;
+  padding-left: 0;
+  border-bottom: 2px solid #dcdcdc;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.basic__headsmall--nobg {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+textarea.form-control {
+  color: #7b7b7b;
+}
+
 .foodlist {
   padding: 0 16px 0;
 }
@@ -7302,6 +7335,94 @@ body {
   width: 50%;
   margin: auto;
   margin-bottom: 20px;
+}
+
+.cart__container {
+  /*.foodlist__number input{
+  	font-size: $font-size-small;
+  }*/
+}
+
+.table tbody {
+  color: #7b7b7b;
+}
+.table tbody td {
+  vertical-align: middle;
+}
+.table thead {
+  font-family: Kanit, Tahoma;
+  font-size: 18px;
+}
+.table.table-noborder th, .table.table-noborder td {
+  border: 0px !important;
+}
+
+.totalbox__action {
+  padding-top: 20px;
+  border-top: 1px solid #dcdcdc;
+}
+
+.step {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  position: relative;
+}
+.step:before {
+  position: absolute;
+  width: 90%;
+  top: 50%;
+  margin-top: -2px;
+  border: 4px solid #ccc;
+  content: "";
+  display: block;
+}
+
+.step__circle, .step__circle--active {
+  color: #fff;
+  background-color: #ccc;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+}
+.step__circle *[class^='icon-'], .step__circle--active *[class^='icon-'], .step__circle *[class*=' icon-'], .step__circle--active *[class*=' icon-'] {
+  font-size: 45px;
+  line-height: 86.4px;
+}
+.step__circle .icon-file-text, .step__circle--active .icon-file-text {
+  margin-left: 5px;
+}
+
+.step__circle--active {
+  background-color: #d1001f;
+}
+
+.step__title {
+  font-family: Kanit, Tahoma;
+  color: #999;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.totalbox__coupon input {
+  color: #7b7b7b;
+}
+.totalbox__coupon button {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
 
 .foodlist__title {
@@ -7327,11 +7448,11 @@ body {
 }
 
 .foodlist__number {
-  font-size: 18px;
   /*float: right;*/
   width: 80px;
 }
 .foodlist__number input {
+  font-size: 12px;
   width: 100%;
   outline: 0px;
 }
@@ -7342,6 +7463,10 @@ body {
 .shop .star .icon-star-full, .shop .star .icon-star-empty,
 .shop .star .icon-star-empty {
   font-size: 12px;
+}
+
+.whitebody, .page__cart .contentbox {
+  background: #fff;
 }
 
 /* Large devices (large desktops, 1200px and up) */

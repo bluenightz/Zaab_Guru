@@ -7044,6 +7044,13 @@ body {
   background-color: #fff;
 }
 
+.shop__checkout {
+  text-align: right;
+}
+.shop__checkout .btn-shopping_cart, .shop__checkout .btn-cancel {
+  width: auto;
+}
+
 .btn-shopping_cart, .btn-cancel {
   width: 100%;
   font-size: 16.2px;

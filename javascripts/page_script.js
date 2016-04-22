@@ -37,7 +37,6 @@
       	$("#dist_min_num").html( $("#slider_dist").slider("values", 0));
       	$("#dist_max_num").html( $("#slider_dist").slider("values", 1));
 
-
       	$(".btn-enter-restaurant, #callshop").click(function(e){
       		$.open_popupcontainer({"type":"shop", "id":1});
       	});

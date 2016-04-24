@@ -23,7 +23,7 @@
 </head><!-- #template head -->
 
 <!-- #template container_open -->
-  <body class="">
+  <body class=" page__location">
 	<div class="container-fluid">
 
 		<div class="row"><!-- #template container_open -->
@@ -122,6 +122,156 @@
 <!-- end .sidebar --><!-- ##template sidebar -->
 
 <!-- #for content -->
+
+
+<div class="col-md-9 contentbox"><!-- contentbox -->
+	<div class="container-fluid cart__container"><!-- content in here -->
+		<div class="col-md-9 mb2">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="basic__head--nobg"><span class="icon-shopping_cart"></span> สถานที่จัดส่ง</h1>
+					<p class="basic__p">ในกรณีที่ใช้บริการเป็นครั้งแรกกรุณากรอกที่อยู่ให้ถูกต้อง </p>
+				</div>
+			</div>
+			<div class="row"><!-- step -->
+				<div class="col-md-8 col-md-offset-2 step">
+					<div class="step__circle"><span class="icon-pencil"></span><strong class="step__title">แก้ไขสินค้า</strong></div>
+					<div class="step__circle--active"><span class="icon-location"></span><strong class="step__title">ที่อยู่จัดส่ง</strong></div>
+					<div class="step__circle"><span class="icon-file-text"></span><strong class="step__title">ตรวจสอบ</strong></div>
+				</div>
+			</div><!-- step -->
+			
+			<div class="row mb4">
+				<div class="col-md-12">
+					<button class="btn btn-default"><span class="icon-arrow-left"></span> แก้ไขตะกร้าสินค้า</button>
+				</div>
+			</div>
+
+			<div class="row ">
+				<div class="col-md-12">
+					<h1 class="basic__headsmall--nobg">สถานที่จัดส่ง</h1>
+				</div>
+
+				<div class="col-md-12 ">
+					<form class="form-horizontal">
+					  <div class="form-group">
+					    <label for="inputEmail3" class="col-md-4 control-label">เลือกสถานที่</label>
+					    <div class="col-md-4">
+					      <select name="" id="" class="form-control">
+					      	<option value="">สร้างสถานที่ใหม่</option>
+					      </select>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">ชื่อสถานที่</label>
+					    <div class="col-md-4">
+					      <input type="text" class="form-control" id="" >
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">ที่อยู่</label>
+					    <div class="col-md-6">
+					      <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">เบอร์โทรศัพท์</label>
+					    <div class="col-md-4">
+					      <input type="text" name="" id="" class="form-control">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-md-4 col-md-offset-4">
+					      <button type="submit" class="btn btn-default">บันทึก</button>
+					    </div>
+					  </div>
+
+
+					<h1 class="basic__headsmall--nobg">รายละเอียดในใบรับเงิน</h1>
+					  <div class="form-group">
+					    <div class="checkbox col-md-offset-4">
+						  <label>
+						    <input type="checkbox" value="">
+						    ใช้ที่อยู่เดียวกับสถานที่จัดส่ง
+						  </label>
+						</div>
+					  </div>
+
+
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">ชื่อ</label>
+					    <div class="col-md-4">
+					      <input type="text" class="form-control" id="" >
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">นามสกุล</label>
+					    <div class="col-md-4">
+					      <input type="text" class="form-control" id="" >
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="" class="col-md-4 control-label">ที่อยู่</label>
+					    <div class="col-md-6">
+					      <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+					    </div>
+					  </div>
+
+
+
+
+					</form>
+
+
+				</div>
+
+			</div>
+
+
+
+
+
+		</div>
+		<div class="col-md-3 totalbox"><!-- totalbox -->
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="basic__headsmall--nobg">รวมทั้งหมด</h1>
+					<p class="basic__p">
+						กรุณาตรวจสอบราคาสินค้าและรายละเอียดเพิ่มเติมให้ถูกต้อง
+					</p>
+					<table class="table table-condensed table-noborder">
+						<tbody>
+							<tr>
+								<th scope="row">มูลค่าสินค้า</th>
+								<td>450 บาท</td>
+							</tr>
+							<tr>
+								<th scope="row">ส่วนลด</th>
+								<td>0 บาท</td>
+							</tr>
+							<tr>
+								<th scope="row">ค่าจัดส่ง</th>
+								<td>150 บาท</td>
+							</tr>
+							<tr>
+								<th scope="row">ยอดสุทธิ</th>
+								<td>600 บาท</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<div class="totalbox__action">
+						<button class="btn btn-success btn-shopping_cart">ดำเนินการต่อไป</button>
+					</div>
+				</div>
+			</div>
+		</div><!-- totalbox -->
+	</div>
+
+
+
+
+</div><!-- contentbox -->
 <!-- #for content -->
 
 <!-- #template container_close -->
@@ -139,6 +289,7 @@
 <script src="js/page_script.js"></script><!-- #template global_script -->
 
 <!-- #for on page script -->
+
 <!-- #for on page script -->
 
 <!-- #for on page end -->

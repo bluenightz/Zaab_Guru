@@ -7522,6 +7522,7 @@ textarea.form-control {
 .page__location .contentbox,
 .page__payment .contentbox,
 .page__order .contentbox,
+.page__profile .contentbox,
 .page__thankyou .contentbox {
   background: #fff;
 }

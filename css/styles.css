@@ -6728,7 +6728,7 @@ button.close {
   margin-top: 50px !important;
 }
 
-.mb5, .step {
+.mb5, .step, .step--horizontal {
   margin-bottom: 50px !important;
 }
 
@@ -7105,7 +7105,7 @@ body {
   color: #7b7b7b;
 }
 
-.basictitle1, .cardcontainer .restaurantbox > .detail > .title, .cardcontainer--hilight .restaurantbox > .detail > .title, .shop__title {
+.basictitle1, .cardcontainer .restaurantbox > .detail > .title, .cardcontainer--hilight .restaurantbox > .detail > .title, .shop__title, .blank__title {
   font-family: 'Kanit', sans-serif;
   display: inline-block;
   font-size: 18px;
@@ -7378,18 +7378,24 @@ textarea.form-control {
   border-top: 1px solid #dcdcdc;
 }
 
-.step {
+.step, .step--horizontal {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   position: relative;
+  /*	&:after{
+  		@include stepborder($primary-color);
+  		z-index: 1;
+  		width: (((1050 + 50) / 1) / 1050) * 100%;
+  	}*/
 }
-.step:before {
+.step:before, .step--horizontal:before {
   position: absolute;
   width: 90%;
   top: 50%;
+  left: 16px;
   margin-top: -2px;
-  border: 4px solid #eaeaea;
+  border: 4px solid #ccc;
   content: "";
   display: block;
 }
@@ -7406,6 +7412,7 @@ textarea.form-control {
   border-radius: 50px;
   text-align: center;
   position: relative;
+  z-index: 2;
 }
 .step__circle *[class^='icon-'], .step__circle--active *[class^='icon-'], .step__circle *[class*=' icon-'], .step__circle--active *[class*=' icon-'] {
   font-size: 45px;
@@ -7424,12 +7431,22 @@ textarea.form-control {
   color: #999;
   position: absolute;
   bottom: -30px;
-  left: 0;
-  width: 100%;
+  left: -50%;
+  width: 200%;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   white-space: nowrap;
+}
+
+.basic__a {
+  color: #d1001f;
+}
+
+.track__title {
+  color: #d1001f;
+  font-family: Kanit, Tahoma;
+  font-size: 18px;
 }
 
 .totalbox__coupon input {
@@ -7439,6 +7456,26 @@ textarea.form-control {
   color: #333;
   background-color: #e6e6e6;
   border-color: #adadad;
+}
+
+.blank__title {
+  text-align: center;
+  display: block;
+  color: #d1001f;
+  font-size: 36px;
+}
+
+.blank__desc {
+  color: #7b7b7b;
+  font-size: 18px;
+  font-weight: 400;
+  display: block;
+}
+
+.page__thankyou .cart__container {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
 }
 
 .foodlist__title {
@@ -7483,7 +7520,9 @@ textarea.form-control {
 
 .whitebody, .page__cart .contentbox,
 .page__location .contentbox,
-.page__payment .contentbox {
+.page__payment .contentbox,
+.page__order .contentbox,
+.page__thankyou .contentbox {
   background: #fff;
 }
 
@@ -7518,6 +7557,24 @@ textarea.form-control {
   .container-fluid {
     position: relative;
     overflow-x: hidden;
+  }
+
+  .step__circle, .step__circle--active {
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+  }
+  .step__circle *[class^='icon-'], .step__circle--active *[class^='icon-'], .step__circle *[class*=' icon-'], .step__circle--active *[class*=' icon-'] {
+    font-size: 28.8px;
+    line-height: 54px;
+  }
+  .step__circle .icon-file-text, .step__circle--active .icon-file-text {
+    margin-left: 5px;
+  }
+
+  .step__title {
+    font-size: 13.5px;
+    font-weight: 400;
   }
 }
 @media (max-width: 480px) {

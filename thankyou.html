@@ -23,7 +23,7 @@
 </head><!-- #template head -->
 
 <!-- #template container_open -->
-  <body class=" page__cart">
+  <body class=" page__thankyou">
 	<div class="container-fluid">
 
 		<div class="row"><!-- #template container_open -->
@@ -123,141 +123,20 @@
 
 <!-- #for content -->
 
-		
-
-
 
 <div class="col-md-9 contentbox"><!-- contentbox -->
 	<div class="container-fluid cart__container"><!-- content in here -->
-		<div class="col-md-9 mb2">
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="basic__head--nobg"><span class="icon-shopping_cart"></span> ตะกร้าสินค้า</h1>
-					<p class="basic__p">รายการสั่งอาหารจากร้าน : ข้าวมันไก่ตอนประตูน้ำ</p>
-				</div>
-			</div>
-			<div class="row"><!-- step -->
-				<div class="col-md-8 col-md-offset-2 step">
-					<div class="step__circle--active"><span class="icon-pencil"></span><strong class="step__title">แก้ไขสินค้า</strong></div>
-					<div class="step__circle"><span class="icon-location"></span><strong class="step__title">ที่อยู่จัดส่ง</strong></div>
-					<div class="step__circle"><span class="icon-file-text"></span><strong class="step__title">ตรวจสอบ</strong></div>
-				</div>
-			</div><!-- step -->
-			<table class="table table--foodlist">
-				<thead>
-					<tr>
-						<th>&nbsp;</th>
-						<th>รายละเอียดสินค้า</th>
-						<th>จำนวน</th>
-						<th>ราคา/หน่วย</th>
-						<th>รวม</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr><!-- loop cart item -->
-						<td><span class="icon-cross"></span></td>
-						<td>ข้าวมันไก่ตอน</td>
-						<td>
-							<div class="foodlist__number">
-								<input id="spinner_1" value="2">
-							</div>
-						</td>
-						<td>45 บาท</td>
-						<td>90 บาท</td>
-					</tr><!-- loop cart item -->
-					<tr>
-						<td><span class="icon-cross"></span></td>
-						<td>ข้าวหมูอบ</td>
-						<td>
-							<div class="foodlist__number">
-								<input id="spinner_2" value="3">
-							</div>
-						</td>
-						<td>45 บาท</td>
-						<td>135 บาท</td>
-					</tr>
-					<tr>
-						<td><span class="icon-cross"></span></td>
-						<td>ข้าวมัน</td>
-						<td>
-							<div class="foodlist__number">
-								<input id="spinner_3" value="5">
-							</div>
-						</td>
-						<td>45 บาท</td>
-						<td>225 บาท</td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="col-md-12 mb2">
 
-			<div class="row mb2">
-				<div class="col-md-12">
-					<button class="btn btn-default"><span class="icon-loop2"></span> คำนวนราคาใหม่</button>
-					<button class="btn btn-default" id="callshop"><span class="icon-add_shopping_cart"></span> เลือกสินค้าเพิ่มเติม</button>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="basic__headsmall--nobg">รายละเอียดเพิ่มเติม</h1>
-					<textarea name="" class="form-control" id=""  rows="6">เช่น รสชาติอาหาร</textarea>
-				</div>
-			</div>
+			<strong class="blank__title">
+				ขอบคุณที่ใช้บริการ ZAAB GURU
+				<span class="blank__desc">
+					ระบบกำลังจะนำท่านไปสู่ขั้นตอนต่อไป...
+				</span>
+			</strong>
 
 		</div>
-		<div class="col-md-3 totalbox"><!-- totalbox -->
-			<div class="row">
-				<div class="col-md-12">
-					<h1 class="basic__headsmall--nobg">รวมทั้งหมด</h1>
-					<p class="basic__p">
-						กรุณาตรวจสอบราคาสินค้าและรายละเอียดเพิ่มเติมให้ถูกต้อง
-					</p>
-					<table class="table table-condensed table-noborder">
-						<tbody>
-							<tr>
-								<th scope="row">มูลค่าสินค้า</th>
-								<td>450 บาท</td>
-							</tr>
-							<tr>
-								<th scope="row">ส่วนลด</th>
-								<td>0 บาท</td>
-							</tr>
-							<tr>
-								<th scope="row">ค่าจัดส่ง</th>
-								<td>150 บาท</td>
-							</tr>
-							<tr>
-								<th scope="row">ยอดสุทธิ</th>
-								<td>600 บาท</td>
-							</tr>
-						</tbody>
-					</table>
-					<div class="input-group totalbox__coupon">
-						<input type="text" name="" class="form-control" id="" placeholder="ใส่รหัสส่วนลด 10 หลัก">
-						<span class="input-group-btn">
-							<button class="btn btn-default" type="button">รับ</button>
-						</span>
-					</div>
-					<div class="totalbox__action">
-						<button class="btn btn-success btn-shopping_cart">ดำเนินการต่อไป</button>
-						<button class="btn btn-default btn-cancel">ยกเลิกการสั่งซื้อ</button>
-					</div>
-				</div>
-			</div>
-		</div><!-- totalbox -->
 	</div>
-
-
-		<div class="popupcontainer col-md-9"><!-- popupcontainer -->
-			<div class="popupcontainer__content container-fluid ">
-				<span class="popupcontainer__close icon-cross"></span>
-				<div class="row popupcontainer__space">
-					
-				</div>
-			</div>
-		</div><!-- popupcontainer -->
-
-
 </div><!-- contentbox -->
 <!-- #for content -->
 

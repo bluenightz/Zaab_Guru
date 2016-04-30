@@ -7,6 +7,7 @@
 		  mapTypeId : google.maps.MapTypeId.ROADMAP
 		});
 
+		$("*[data-starvote]").starvote();
 
 		$("#slider_price").slider({
 	      range: true,

@@ -8,6 +8,12 @@
 		});
 
 		$("*[data-starvote]").starvote();
+		
+		$.useSameValue( 
+			[ $("#textarea1") ], 
+			[ $("#textarea2") ], 
+			$('#use_same_address') 
+		);
 
 		$("#slider_price").slider({
 	      range: true,

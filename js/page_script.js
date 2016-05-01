@@ -8,11 +8,13 @@
 		});
 
 		$("*[data-starvote]").starvote();
-		
+
+		$.starsearch = $(".sidebar *[data-starsearch]").starsearch( "star_search" );
+
 		$.useSameValue( 
 			[ $("#textarea1") ], 
 			[ $("#textarea2") ], 
-			$('#use_same_address') 
+			$('#use_same_address')
 		);
 
 		$("#slider_price").slider({

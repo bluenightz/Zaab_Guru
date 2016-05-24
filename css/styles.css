@@ -6788,6 +6788,10 @@ button.close {
   margin-bottom: 120px !important;
 }
 
+.nopadding {
+  padding: 0px !important;
+}
+
 .full-height, body, html, .container-fluid,
 .container-fluid > .row, .sidebar, .popupcontainer__content {
   min-height: 100%;
@@ -7113,7 +7117,17 @@ body {
   color: #7b7b7b;
 }
 
-.basictitle1, .cardcontainer .restaurantbox > .detail > .title, .cardcontainer--hilight .restaurantbox > .detail > .title, .shop__title, .blank__title {
+.basicbar, .basicbar--red {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.basicbar--red {
+  background-color: #d1001f;
+  color: #fff !important;
+}
+
+.basictitle1, .basicbar--red, .cardcontainer .restaurantbox > .detail > .title, .cardcontainer--hilight .restaurantbox > .detail > .title, .shop__title, .blank__title {
   font-family: 'Kanit', sans-serif;
   display: inline-block;
   font-size: 18px;
@@ -7534,7 +7548,8 @@ textarea.form-control {
   font-size: 12px;
 }
 
-.whitebody, .page__cart .contentbox,
+.whitebody, .page__notice .contentbox,
+.page__cart .contentbox,
 .page__location .contentbox,
 .page__payment .contentbox,
 .page__order .contentbox,

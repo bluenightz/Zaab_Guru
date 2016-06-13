@@ -147,7 +147,7 @@
 		return {
 			"openSearch": openSearch,
 			"closeSearch": closeSearch,
-			"searchFactory": searchFactory
+			"searchFactory": searchFactory()
 		}
 
 	}
